@@ -47,7 +47,7 @@ class DoubleList:
         print("Rata-rata IPK: {:.1f}".format(rata2))
     
     def deleteLast(self):
-        if self.size == 1:
+        if self.__len__ == 1:
             self.head = None
             self.tail = None
         else:
